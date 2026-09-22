@@ -9,6 +9,13 @@
     display: flex;
 }
 
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .nav ul {
     list-style-type: none;
     display: flex;
@@ -22,16 +29,22 @@
     font-size: 24px;
     color: #F9FAF8;
     flex: none;
+    font-weight: 700;
 }
 
 .headerlinks {
     color: #E5E7EB;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 15px;
 }
 
 .summary {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 40px;
     align-items: center;
 }
@@ -70,5 +83,6 @@
     width: 200px;
     height: auto;
     gap: 20px;
-    border: 3px #3882F6;
+    border: solid 3px #3882F6;
+    border-radius: 50%;
 }
