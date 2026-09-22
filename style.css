@@ -7,7 +7,15 @@
 .nav {
     background-color: #1F2937;
     display: flex;
+}
+
+.nav ul {
     list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    justify-content: flex-end;
 }
 
 .logo {
@@ -17,6 +25,30 @@
 }
 
 .headerlinks {
-   color: #F9FAF8;
+    color: #F9FAF8;
 
+}
+
+.summary {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.summary img {
+    width: 400px;
+    height: auto;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns img {
+    width: 200px;
+    height: auto;
+    gap: 20px;
 }
